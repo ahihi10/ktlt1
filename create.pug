@@ -1,0 +1,35 @@
+head
+style.
+	label, input, button {
+	margin: 10px;
+	}
+h1 Create post
+form(action="/create" method="POST")
+	label(id="id")
+	input(type="text", placeholder="id", name="id")
+	br
+	label(id="name")
+	input(type="text", placeholder="title", name="name")
+	br
+    label(id="publishyear") 
+    input(type="text", placeholder="title", name="publishyear")
+    br
+    label(id="directors") 
+    input(type="text", placeholder="title", name="directors")
+    br
+    label(id="category") 
+    input(type="text", placeholder="title", name="category")
+    br
+    label(id="rentbyday") 
+    input(type="text", placeholder="title", name="rentbyday")
+    br
+    label(id="time") 
+    input(type="text", placeholder="title", name="time")
+    br
+    label(id="capacity") 
+    input(type="text", placeholder="title", name="capacity")
+    br
+    label(id="resolution") 
+    input(type="text", placeholder="title", name="resolution")
+    br
+	button Create
