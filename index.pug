@@ -1,0 +1,30 @@
+.film
+  head
+    style.
+      table, th, td {
+      border: 1px solid black;
+      }
+  table
+    thead
+      tr
+        th  id
+        th  name 
+        th  publishyar
+        th  directors
+        th  category
+        th  rentbyday
+        th  time
+        th  capacity
+        th  resolution
+    tbody
+    each post in film
+      tr
+        td=  post.id
+        td=  post.name 
+        td=  post.publishyar
+        td=  post.directors
+        td=  post.category
+        td=  post.rentbyday
+        td=  post.time
+        td=  post.capacity
+        td=  post.resolution
